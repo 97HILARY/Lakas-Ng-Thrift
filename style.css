@@ -20,12 +20,7 @@ nav ul {
     text-decoration-style: wavy;
     justify-items: right;
     font-size: medium;
-
-    
-
 }
-
-
 
 body {
     background-color: #F3EAD8;
@@ -38,4 +33,15 @@ body {
     margin: 40px;
     float: left;
     border-radius: 10%;
+}
+
+
+.table {
+    align-items: center;
+    width: 1345px;
+    border: 10px;
+}
+
+.card {
+    margin: 50px;
 }
