@@ -128,6 +128,7 @@ audio {
 
 .card {
     margin: 79px;
+    border-radius: 5%;
 }
 
 .checkout {
@@ -165,4 +166,69 @@ body .linksout {
 body .linksout:hover {
    background-color: #5b4f47;
    color: white;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card {
+   background: white;
+   width: 270px;
+   height: 500px;
+   margin: 50px;
+   border-radius: 15px;
+}
+
+.card-image {
+   background-color: blue;
+   height: 300px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0;
+}
+
+.notebook1 {
+   background-image: url(notebook1.jpg);
+}
+
+.notebook2 {
+   background-image: url(notebook2.jpg);
+}
+
+.one {
+   background-image: url(one);
+}
+
+.card h2 {
+   padding: 10px;
+}
+
+.card p {
+   padding: 10px;
+}
+
+.card a {
+   background-color: black;
+   padding-block-end: 15px 20px ;
+   display: block ;
+   text-align: center;
+   margin: 20px 50px;
+   text-decoration: none;
+}
+
+.card:hover {
+   background-color: rgb(224, 149, 149);
+   color: white;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition: all 1s ease;
 }
