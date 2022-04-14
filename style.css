@@ -181,27 +181,39 @@ body .linksout:hover {
 }
 
 .card {
+   padding: 5px;
    background: white;
-   width: 270px;
+   width: 300px;
    height: 500px;
-   margin: 50px;
+   margin: 25px;
    border-radius: 15px;
 }
 
 .card-image {
-   background-color: blue;
    height: 300px;
    margin-bottom: 15px;
    background-size: cover;
    border-radius: 15px 15px 0 0;
 }
 
-.notebook1 {
-   background-image: url(notebook1.jpg);
+.picone {
+   background-image: url(picone.jpg)
 }
 
-.notebook2 {
-   background-image: url(notebook2.jpg);
+.pictwo {
+   background-image: url(pictwo.jpg)
+}
+
+.picthree {
+   background-image: url(picthree.jpg)
+}
+
+.picfour {
+   background-image: url(picfour.jpg)
+}
+
+.picfive {
+   background-image: url(picfive.jpg)
 }
 
 .one {
