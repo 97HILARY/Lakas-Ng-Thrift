@@ -216,6 +216,49 @@ body .linksout:hover {
    background-image: url(picfive.jpg)
 }
 
+.picsix {
+   background-image: url(picsix.jpg);
+}
+
+.picseven {
+   background-image: url(picseven.jpg);
+}
+
+.picnine {
+   background-image: url(picnine.jpg);
+}
+
+.picten {
+   background-image: url(picten.jpg);
+}
+
+.pictwelve {
+   background-image: url(pictwelve.jpg);
+   background-position: 0%;
+}
+
+.pokemon {
+   background-image: url(pokemon.png);
+   background-size: contain;
+}
+
+.picfourteen {
+   background-image: url(picfourteen.jpg);
+}
+
+.picfifteen {
+   background-image: url(picfifteen.jpg);
+}
+
+.picsixteen {
+   background-image: url(picsixteen.jpg);
+}
+
+.picseventeen {
+   background-image: url(picseventeen.jpg);
+   background-position: 0%;
+}
+
 .one {
    background-image: url(one);
 }
