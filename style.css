@@ -97,9 +97,7 @@ audio {
  
 .homebody {
     margin: 0;
-    align-content: center;
     background-color: #a7978c;
-
 }
 
 .aboutbody {
@@ -315,7 +313,6 @@ body .linksout:hover {
    padding-right: 20%;
    margin-bottom: 200px;
    
-   
 }
 .homemainpic {
    display: flex;
@@ -413,4 +410,3 @@ body .linksout:hover {
    padding-right: 20%;
    padding-bottom: 20px;
    margin-top: -10px;
-}
