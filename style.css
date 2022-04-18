@@ -230,8 +230,6 @@ body .linksout:hover {
    background-size: cover;
    border-radius: 15px 15px 0 0;
    background-repeat: no-repeat;
-   
-
 }
 
 .picone {
@@ -297,9 +295,6 @@ body .linksout:hover {
    background-position: 0%;
 }
 
-.one {
-   background-image: url(one);
-}
 
 .card h2 {
    padding: 10px;
