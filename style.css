@@ -74,6 +74,11 @@ nav .selected {
    nav .logopic{
        display: none;
    }
+   section{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+   }
    audio {
       display: none;
       position: absolute;
@@ -127,7 +132,7 @@ audio {
 }
 
 .card {
-    margin: 79px;
+   
     border-radius: 5%;
 }
 
@@ -168,32 +173,65 @@ body .linksout:hover {
    color: white;
 }
 
+
 * {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
 }
-
 .container {
    display: flex;
    justify-content: center;
-   flex-wrap: wrap;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+
 }
 
 .card {
    padding: 5px;
    background: white;
-   width: 300px;
-   height: 500px;
+   width: 35vw;
+   height: 70vw;
+   margin: 25px;
+   border-radius: 15px;
+}
+.card-body{
+   padding: 5px;
+   background: white;
+   width: 90vw;
+   height: 35vw;
    margin: 25px;
    border-radius: 15px;
 }
 
 .card-image {
-   height: 300px;
+   height: 200px;
    margin-bottom: 15px;
    background-size: cover;
    border-radius: 15px 15px 0 0;
+   background-repeat: no-repeat;
+   object-fit:cover;
+}
+
+.card{
+   display: flex;
+   width: 90vw;
+   height: 37.5vw;
+   margin: 30px;
+   border-radius: 15px;
+   padding: 5px;
+   background: white;
+}
+.card-image{
+   
+   height: 100px;
+   margin-bottom: 15px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0;
+   background-repeat: no-repeat;
+   
+
 }
 
 .picone {
@@ -238,7 +276,7 @@ body .linksout:hover {
 }
 
 .pokemon {
-   background-image: url(pokemon.png);
+   background-image: url(pokemon.jpg);
    background-size: contain;
 }
 
@@ -453,4 +491,71 @@ body .linksout:hover {
    padding-right: 20%;
    padding-bottom: 20px;
    margin-top: -10px;
+}
+
+.card{
+   font-family: 'Pompiere', sans-serif;
+   display: block;
+   background-color: white;
+   color: #5b4f47;
+   font-size: 2.6vw;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   border-radius: 12px;
+   margin-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 20px;
+   position: static;
+   padding-block-end: 15px 20px ;
+
+}
+
+.cardright{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.card h2{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Pompiere', sans-serif;
+   font-size: 3.73vw;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.cardright p{
+   font-family: 'Pompiere', sans-serif;
+   display: flex;
+   font-size: vw;
+   padding-top: 0px;
+   margin-top:-10px;
+   padding-right: 15px;
+   padding-left: 15px;
+   float: right;
+}
+.card .btn{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Segoe UI', sans-serif;
+   font-size: 2.73vw;
+   font-weight: bold;
+   margin-top: 10px;
+   float: inline-end;
+}
+.card-image{
+   display: flex;
+   float: left;
+   width: 30vw;
+   height: 35vw;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   padding-left: 25%;
+   padding-right: 20%;
+   background-size: contain;
 }
