@@ -25,9 +25,24 @@ $(function () {
     classCheckoutCart: 'my-cart-checkout',
     affixCartIcon: true,
     showCheckoutModal: true,
-    numberOfDecimals: 2,
+    numberOfDecimals: 1,
     cartItems: [
-      {id: 1, name: '(2022 Belle de Jour Power Planner)', summary: 'summary 1', price: 20, quantity: 1, image: 'picone.jpg'},
+      {id: 1, name: '(Page One: Belle de Jour Power Planner)', summary: 'summary 1', price: 20, quantity: 1, image: 'picone.jpg'},
+      {id: 2, name: '(Page Two: Belle de Jour Power Planner)', summary: 'summary 2', price: 20, quantity: 1, image: 'pictwo.jpg'},
+      {id: 3, name: '(Page Three: Belle de Jour Power Planner)', summary: 'summary 3', price: 20, quantity: 1, image: 'picthree.jpg'},
+      {id: 4, name: '(Special: Belle de Jour Power Planner)', summary: 'summary 4', price: 20, quantity: 1, image: 'picfour.jpg'},
+      {id: 5, name: '(Cover: Belle de Jour Power Planner)', summary: 'summary 5', price: 20, quantity: 1, image: 'picfive.jpg'},
+      {id: 6, name: '(Authentic Sanrio Square Case)', summary: 'summary 6', price: 20, quantity: 1, image: 'picsix.jpg'},
+      {id: 7, name: '(Pokemon Pikachu Ceramic Bank)', summary: 'summary 7', price: 20, quantity: 1, image: 'pokemon.jpg'},
+      {id: 8, name: '(Cute Printing Tote Bag Bulldog)', summary: 'summary 8', price: 20, quantity: 1, image: 'picseven.jpg'},
+      {id: 9, name: '(Korean Red Tee)', summary: 'summary 9', price: 20, quantity: 1, image: 'pictwelve.jpg'},
+      {id: 10, name: '(Preloved Sun Specs)', summary: 'summary 10', price: 20, quantity: 1, image: 'picfourteen.jpg'},
+      {id: 11, name: '(Simple Pearl Necklace)', summary: 'summary 11', price: 20, quantity: 1, image: 'picsixteen.jpg'},
+      {id: 12, name: '(Studio Fashion Elmo Korean Inspired Bucket Hat for Unisex)', summary: 'summary 12', price: 20, quantity: 1, image: 'picseventeen.jpg'},
+      {id: 13, name: '(Round Wooden Plates)', summary: 'summary 13', price: 20, quantity: 1, image: 'picfifteen.jpg'},
+      {id: 14, name: '(Glass Flower Vase)', summary: 'summary 14', price: 20, quantity: 1, image: 'picten.jpg'},
+      {id: 15, name: '(Cute Keyring)', summary: 'summary 15', price: 20, quantity: 1, image: 'picseven.jpg'},
+
 
     ],
 
