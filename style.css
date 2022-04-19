@@ -40,35 +40,67 @@ nav .logo {
 nav .right .links:hover {
    background-color: #5b4f47;
    color: white;
+   text-decoration: none;
+}
+nav .logo:hover{
+   text-decoration: none;
+   color: #5b4f47;
 }
 nav .selected {
    background-color: #5b4f47;
    color: white;
 }
+.sticky-top{
+   position: sticky;
+}
 .right {
    float: right;
 }
+.itembody h1 {
+   font-size: 4vw;
+   position: fixed;
+   margin-top: 120px;
+   left: 1%;
+   margin-left: -3px;
+   color: #F3EAD8;
+}
+.container .btn{
+   margin-top: 20%;
+}
+.itembody .container{
+   margin-top: 5%;
+}
+.cardright button{
+   margin-top: -500px;
+}
+audio {
+   margin-right: -263px;
+   margin-top: 10px;
+   background-color: #5b4f47;
+   border-radius: 10px;
+}
 @media screen and (max-width: 810px) {
    nav {
-      height: 60px;
+      height: 100px;
    }
 
    nav .links {
       float: left;
       display: inline;
       text-align: center;
-      font-size: 12px;  
-      margin-top: -4px;
+      font-size: 2vw;  
+      justify-content: center;
+      align-items: center;
 
    }
    nav .logo {
       float: left;
-      font-size: larger;
-      padding-left: 20px;
+      font-size: 4.5vw;
+      padding-left: 35px;
    }
    nav .right {
       float: right;
-      font-size: 1px;
+      font-size: 2vw;
       text-align: center;
    }
    nav .logopic{
@@ -81,18 +113,43 @@ nav .selected {
    }
    audio {
       display: none;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      size: 1000px;
-      background-color: #5b4f47;
+      margin-right: -1000px;
    }
-}
-audio {
-   margin-right: -263px;
-   margin-top: 10px;
-   background-color: #5b4f47;
-   border-radius: 10px;
+   .itembody h1 {
+      font-size: 4vw;
+      position: fixed;
+      margin-top: 110px;
+      left: 1%;
+      margin-left: -3px;
+      color: #F3EAD8;
+   }
+   .container{
+      margin-top: 10%;
+   }
+   .container .btn{
+      margin-top: 20%;
+   }
+   .card{
+      margin-top: 90%;
+   }
+   .container .cardone{
+      margin-top: 30%;
+   }
+   .cardright button{
+      margin-top: -500px;
+   }
+   .card:hover {
+      background-color: rgb(255, 209, 148);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all 1s ease;
+      width: 120vw;
+      height: 50vw;
+      font-size: 20px;
+      margin-left: -220px;
+      
+   }
 }
 .sticky {
    position: fixed;
@@ -528,15 +585,15 @@ body .linksout:hover {
    font-size: vw;
    padding-top: 0px;
    margin-top:-10px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 5px;
+   padding-left: 5px;
    float: right;
 }
 .card .btn{
    display: block;
    align-items: center;
    justify-content: center;
-   font-family: 'Segoe UI', sans-serif;
+   font-family: 'Pompeire', sans-serif;
    font-size: 2.73vw;
    font-weight: bold;
    margin-top: 10px;
@@ -553,4 +610,18 @@ body .linksout:hover {
    padding-left: 25%;
    padding-right: 20%;
    background-size: contain;
+}
+.container{
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px;
+}
+.cardright button{
+   margin-top: -200px;
+   float: inline-end;
+}
+.my-cart-btn{
+   padding-bottom: 30px;
+   margin-top: -10px;
+   position: absolute;
 }
