@@ -11,8 +11,9 @@
 <style type="text/css"></style>
 <link rel="stylesheet" href="data-bs-target">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pompiere">
 
-<body class="checkoutbody">
+<body class="aboutbody">
   <nav class="sticky-top sticky-top">
     <div class="all">
   <img class="links logopic" src="logo.png" alt="Lakas ng Thrift">    
@@ -21,7 +22,7 @@
   <a class="links" href="index.html">Home</a>
   <a class="links" href="about.html">About Us</a>
   <a class="links" href="items.html">Items</a>
-  <a class="selected links" href="checkout.html">Checkout</a>
+  <a id="checkout" class="selected links" href="checkout.html">Checkout</a>
   <a class="links" href="contact.html">Contact Us</a>
   <audio controls autoplay loop> 
     <source src="Kundiman.m4a" type="audio/ogg"> 
@@ -30,10 +31,9 @@
   </div>
   </nav>
  
-  <body class="checkout">
-    
+  <body class="payment">
   <div class="container">
-    <main>
+    <main class="checkoutall">
       <div class="py-5 text-center">
         <img class="checkoutlogo" src="logo.png" alt="" width="72" height="57">
         <h2>Checkout form</h2>
@@ -140,43 +140,6 @@
         </div>
       </div>
         
-      </div>
-        <hr>
-        <select class="form-select" id="product" required="">
-        <option>Title</option>
-        </select>
-        <div class="invalid-feedback">
-          Please select a valid product.
-        </div>
-      </div>
-      
-      <div class="col-md-4">
-        <label for="color" class="form-label">Color</label>
-        <select class="form-select" id="color" required="">
-        <option value="">Choose...</option>
-        <option>Pink</option>
-        </select>
-        <div class="invalid-feedback">
-          Please choose a color.
-        </div>
-      </div>
-                    
-      <div class="col-md-3">
-        <label for="number" class="form-label">Quantity</label>
-        <select class="form-select" id="number" required="">
-        <option value="">Choose...</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6+3 Free</option>
-        </select>
-        <div class="invalid-feedback">
-          Please choose how may items you want to buy.
-        </div>
-      </div>
-        
         <hr class="my-4">
         <div class="form-check">
         <input type="checkbox" class="form-check-input" id="same-address">
@@ -203,7 +166,7 @@
             
       <div class="col-md-6">
         <label for="cc-number" class="form-label">GCash Number (for GCash payment) / Mobile Number (for COD payment)</label>
-        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+        <input type="text" class="form-control" id="cc-number" placeholder="0912 345 6789" required="">
         <div class="invalid-feedback">
           GCash Number / Mobile Number is required
         </div>
