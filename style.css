@@ -194,7 +194,11 @@ audio {
 }
 
 .checkout {
-    background-color: #F3EAD8;
+   background-color: #F3EAD8;
+}
+
+.payment {
+   font-size: 1vw;
 }
 
 .cogcash {
