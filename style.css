@@ -629,3 +629,10 @@ body .linksout:hover {
    margin-top: -10px;
    position: absolute;
 }
+
+.proceed:hover {
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all 1s ease;
+}
