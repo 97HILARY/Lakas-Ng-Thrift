@@ -21,7 +21,7 @@
       classProductRemove: 'my-product-remove',
       classCheckoutCart: 'my-cart-checkout',
       affixCartIcon: true,
-      showCheckoutModal: true,
+      showCheckoutModal: true, 
       numberOfDecimals: 2,
       cartItems: null,
       clickOnAddToCart: function ($addTocart) {},
@@ -232,13 +232,14 @@
         '</div>' +
         '<div class="modal-footer">' +
         '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
-        '<button type="button" class="btn btn-primary ' + classCheckoutCart + '"> Checkout</button>' +
+        '<button type="button" class="btn btn-primary " ' + classCheckoutCart + '"> Checkout</button>' +
         '</div>' +
         '</div>' +
         '</div>' +
-        '</div>'
+        '</div>' 
       );
     }
+
 
     var drawTable = function () {
       var $cartTable = $("#" + idCartTable);
