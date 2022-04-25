@@ -1,14 +1,18 @@
-* {box-sizing: border-box;}
+* {
+   box-sizing: border-box;
+}
+
 nav {
    overflow: hidden;
    background-color: #F3EAD8;
    padding: 10px;
 }
+
 .links {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: bold;
    float: left;
-   color:#5b4f47;
+   color: #5b4f47;
    text-align: center;
    padding: 10px;
    text-decoration: none;
@@ -19,43 +23,50 @@ nav {
    margin-top: 15px;
 }
 
-nav .logopic{
-    height: 200px;
-    width: 200px;
-    padding: 30px;
-    margin-top: -60px;
-    margin-bottom: -50px;
-    margin-left: -50px;
-    margin-right: -50px;
-    image-resolution: 1080;
+nav .logopic {
+   height: 200px;
+   width: 200px;
+   padding: 30px;
+   margin-top: -60px;
+   margin-bottom: -50px;
+   margin-left: -50px;
+   margin-right: -50px;
+   image-resolution: 1080;
 }
+
 nav .logo {
-   font-family: 'Dancing Script' , sans-serif;
+   font-family: 'Dancing Script', sans-serif;
    font-size: 32px;
    font-weight: bold;
    color: #5b4f47;
    margin-left: -20px;
    text-decoration: none;
 }
+
 nav .right .links:hover {
    background-color: #5b4f47;
    color: white;
    text-decoration: none;
 }
-nav .logo:hover{
+
+nav .logo:hover {
    text-decoration: none;
    color: #5b4f47;
 }
+
 nav .selected {
    background-color: #5b4f47;
    color: white;
 }
-.sticky-top{
+
+.sticky-top {
    position: sticky;
 }
+
 .right {
    float: right;
 }
+
 .itembody h1 {
    font-size: 4vw;
    position: fixed;
@@ -64,21 +75,26 @@ nav .selected {
    margin-left: -3px;
    color: #F3EAD8;
 }
-.container .btn{
+
+.container .btn {
    margin-top: 20%;
 }
-.itembody .container{
+
+.itembody .container {
    margin-top: 5%;
 }
-.cardright button{
+
+.cardright button {
    margin-top: -500px;
 }
+
 audio {
    margin-right: -263px;
    margin-top: 10px;
    background-color: #5b4f47;
    border-radius: 10px;
 }
+
 @media screen and (max-width: 810px) {
    nav {
       height: 100px;
@@ -88,33 +104,39 @@ audio {
       float: left;
       display: inline;
       text-align: center;
-      font-size: 2vw;  
+      font-size: 2vw;
       justify-content: center;
       align-items: center;
 
    }
+
    nav .logo {
       float: left;
       font-size: 3.5vw;
       padding-left: 35px;
    }
+
    nav .right {
       float: right;
       font-size: 2vw;
       text-align: center;
    }
-   nav .logopic{
-       display: none;
+
+   nav .logopic {
+      display: none;
    }
-   section{
+
+   section {
       text-align: center;
       align-items: center;
       justify-content: center;
    }
+
    audio {
       margin-right: -270px;
       margin-top: 10px;
    }
+
    .itembody h1 {
       font-size: 4vw;
       position: fixed;
@@ -123,21 +145,27 @@ audio {
       margin-left: -3px;
       color: #F3EAD8;
    }
-   .container{
+
+   .container {
       margin-top: 10%;
    }
-   .container .btn{
+
+   .container .btn {
       margin-top: 20%;
    }
-   .card{
+
+   .card {
       margin-top: 90%;
    }
-   .container .cardone{
+
+   .container .cardone {
       margin-top: 30%;
    }
-   .cardright button{
+
+   .cardright button {
       margin-top: -500px;
    }
+
    .card:hover {
       background-color: rgb(255, 209, 148);
       color: white;
@@ -148,18 +176,19 @@ audio {
       height: 50vw;
       font-size: 20px;
       margin-left: -220px;
-      
+
    }
 }
+
 .sticky {
    position: fixed;
    top: 0;
    width: 100%;
- }
- 
+}
+
 .homebody {
-    margin: 0;
-    background-color: #a7978c;
+   margin: 0;
+   background-color: #a7978c;
 }
 
 .aboutbody {
@@ -183,14 +212,14 @@ audio {
 }
 
 .table {
-    align-items: center;
-    width: 1345px;
-    border: 10px;
+   align-items: center;
+   width: 1345px;
+   border: 10px;
 }
 
 .card {
-   
-    border-radius: 5%;
+
+   border-radius: 5%;
 }
 
 .checkout {
@@ -202,9 +231,10 @@ audio {
 }
 
 .cogcash {
-    margin: 50px;
+   margin: 50px;
 }
-nav .logoout{
+
+nav .logoout {
    height: 200px;
    width: 200px;
    padding: 30px;
@@ -215,11 +245,12 @@ nav .logoout{
    image-resolution: 1080;
    align-content: center;
 }
+
 body .linksout {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: bold;
    float: left;
-   color:#5b4f47;
+   color: #5b4f47;
    text-align: center;
    padding: 10px;
    text-decoration: none;
@@ -229,6 +260,7 @@ body .linksout {
    border-width: 5px;
    margin-top: 15px;
 }
+
 body .linksout:hover {
    background-color: #5b4f47;
    color: white;
@@ -240,6 +272,7 @@ body .linksout:hover {
    padding: 0;
    margin: 0;
 }
+
 .container {
    display: flex;
    justify-content: center;
@@ -257,7 +290,8 @@ body .linksout:hover {
    margin: 25px;
    border-radius: 15px;
 }
-.card-body{
+
+.card-body {
    padding: 5px;
    background: white;
    width: 90vw;
@@ -272,10 +306,10 @@ body .linksout:hover {
    background-size: cover;
    border-radius: 15px 15px 0 0;
    background-repeat: no-repeat;
-   object-fit:cover;
+   object-fit: cover;
 }
 
-.card{
+.card {
    display: flex;
    width: 90vw;
    height: 37.5vw;
@@ -284,8 +318,9 @@ body .linksout:hover {
    padding: 5px;
    background: white;
 }
-.card-image{
-   
+
+.card-image {
+
    height: 100px;
    margin-bottom: 15px;
    background-size: cover;
@@ -367,8 +402,8 @@ body .linksout:hover {
 
 .card a {
    background-color: black;
-   padding-block-end: 15px 20px ;
-   display: block ;
+   padding-block-end: 15px 20px;
+   display: block;
    text-align: center;
    margin: 20px 50px;
    text-decoration: none;
@@ -393,18 +428,21 @@ body .linksout:hover {
    padding-left: 50%;
    padding-right: 20%;
 }
+
 .homeimgone {
    padding: 7px;
    margin-left: -10px;
    box-shadow: white;
    border-radius: 15%;
 }
+
 .homeimgtwo {
    padding: 7px;
    margin-right: -10px;
    box-shadow: white;
    border-radius: 15%;
 }
+
 .hometext {
    font-family: 'Pompiere', sans-serif;
    display: block;
@@ -420,6 +458,7 @@ body .linksout:hover {
    margin-right: 30px;
    margin-bottom: 20px;
 }
+
 .hometext:hover {
    font-size: 3vw;
    cursor: pointer;
@@ -429,8 +468,8 @@ body .linksout:hover {
    background-color: #ddc1a7;
    margin: 5px;
    margin-top: -22px;
-   
-  
+
+
 }
 
 .homebodytext {
@@ -443,7 +482,7 @@ body .linksout:hover {
    color: #F2ead6;
 }
 
-.homebodytext p{
+.homebodytext p {
    background-color: #5b4f47;
    color: #F2ead6;
    border-radius: 15%;
@@ -452,6 +491,7 @@ body .linksout:hover {
    padding-left: 5px;
    padding-right: 5px;
 }
+
 .homeimgthree {
    display: flex;
    width: 30vw;
@@ -462,8 +502,9 @@ body .linksout:hover {
    padding-left: 50%;
    padding-right: 20%;
    margin-bottom: 200px;
-   
+
 }
+
 .homemainpic {
    display: flex;
    width: 36vw;
@@ -478,10 +519,12 @@ body .linksout:hover {
 .homeimg33 {
    border-radius: 5%;
 }
-.homemainmainpic{
+
+.homemainmainpic {
    border-radius: 5%;
 }
-.aboutbodyall{
+
+.aboutbodyall {
    font-family: 'Pompiere', sans-serif;
    display: block;
    background-color: white;
@@ -496,19 +539,22 @@ body .linksout:hover {
    margin-right: 30px;
    margin-bottom: 20px;
 }
-.abouttitleone{
+
+.abouttitleone {
    font-family: 'Dancing Script', sans-serif;
    font-size: 5vw;
    font-style: initial;
    padding-bottom: 5px;
    padding-top: 10px;
 }
+
 .aboutone {
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.aboutonetext{
+
+.aboutonetext {
    display: flex;
    font-size: 2.7vw;
    margin-top: 15px;
@@ -517,7 +563,8 @@ body .linksout:hover {
    float: right;
 
 }
-.aboutonetext:hover{
+
+.aboutonetext:hover {
    font-size: 3.8vw;
    float: left;
    cursor: pointer;
@@ -529,7 +576,8 @@ body .linksout:hover {
    margin-top: -5px;
    margin-bottom: 5px;
 }
-.aboutonepic{
+
+.aboutonepic {
    display: flex;
    float: left;
    width: 30vw;
@@ -541,20 +589,22 @@ body .linksout:hover {
    margin-bottom: 10px;
    margin-top: -10px;
 }
-.abouttitletwo{
+
+.abouttitletwo {
    font-family: 'Dancing Script', sans-serif;
    font-size: 4.5vw;
    font-style: initial;
    padding-bottom: 5px;
    padding-top: 20px;
 }
+
 .aboutone {
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-.abouttwotext{
+.abouttwotext {
    display: flex;
    font-size: 2.7vw;
    margin-top: 15px;
@@ -562,7 +612,8 @@ body .linksout:hover {
    padding-left: 20px;
    float: right;
 }
-.abouttwotext:hover{
+
+.abouttwotext:hover {
    font-size: 4.3vw;
    float: left;
    cursor: pointer;
@@ -576,7 +627,8 @@ body .linksout:hover {
    padding-left: 10px;
    padding-right: 10px;
 }
-.abouttwopic{
+
+.abouttwopic {
    display: flex;
    width: 30vw;
    height: 35vw;
@@ -588,7 +640,7 @@ body .linksout:hover {
    margin-top: -10px;
 }
 
-.card{
+.card {
    font-family: 'Pompiere', sans-serif;
    display: block;
    background-color: white;
@@ -603,17 +655,18 @@ body .linksout:hover {
    margin-right: 30px;
    margin-bottom: 20px;
    position: static;
-   padding-block-end: 15px 20px ;
+   padding-block-end: 15px 20px;
 
 }
 
-.cardright{
+.cardright {
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
 }
-.card h2{
+
+.card h2 {
    display: block;
    align-items: center;
    justify-content: center;
@@ -622,17 +675,19 @@ body .linksout:hover {
    font-weight: bold;
    margin-top: 10px;
 }
-.cardright p{
+
+.cardright p {
    font-family: 'Pompiere', sans-serif;
    display: flex;
    font-size: vw;
    padding-top: 0px;
-   margin-top:-10px;
+   margin-top: -10px;
    padding-right: 5px;
    padding-left: 5px;
    float: right;
 }
-.card .btn{
+
+.card .btn {
    display: block;
    align-items: center;
    justify-content: center;
@@ -642,7 +697,8 @@ body .linksout:hover {
    margin-top: 10px;
    float: inline-end;
 }
-.card-image{
+
+.card-image {
    display: flex;
    float: left;
    width: 30vw;
@@ -654,16 +710,19 @@ body .linksout:hover {
    padding-right: 20%;
    background-size: contain;
 }
-.container{
+
+.container {
    align-items: center;
    justify-content: center;
    margin-top: 5px;
 }
-.cardright button{
+
+.cardright button {
    margin-top: -200px;
    float: inline-end;
 }
-.my-cart-btn{
+
+.my-cart-btn {
    padding-bottom: 30px;
    margin-top: -10px;
    position: absolute;
@@ -675,29 +734,32 @@ body .linksout:hover {
    transform: scale(1.03);
    transition: all 1s ease;
 }
-.divout{
-   background-color: #ce8554; 
-   border-radius: 5%; 
-   margin-top: 30px; 
-   margin-bottom: 20px; 
+
+.divout {
+   background-color: #ce8554;
+   border-radius: 5%;
+   margin-top: 30px;
+   margin-bottom: 20px;
    margin-left: 50px;
    margin-right: 50px;
    padding: 10px;
    text-align: center;
    justify-content: center;
-   
+
 }
-.textout{
-   font-size: 4vw; 
-   font-family: Pompiere; 
+
+.textout {
+   font-size: 4vw;
+   font-family: Pompiere;
    color: aliceblue;
 }
+
 .textout:hover {
-   font-size: 4.4vw; 
-   font-family: Pompiere; 
+   font-size: 4.4vw;
+   font-family: Pompiere;
    color: #5b4f47;
    background-color: #F2ead6;
-   border-radius: 5%; 
+   border-radius: 5%;
    margin-top: -7px;
    margin-left: -5px;
    margin-right: -5px;
@@ -709,7 +771,8 @@ body .linksout:hover {
    transform: scale(1.03);
    transition: all 1s ease;
 }
-.allout{
+
+.allout {
    background-color: white;
    border-radius: 15%;
    text-align: center;
@@ -721,13 +784,15 @@ body .linksout:hover {
    padding-bottom: 5px;
    size: 10vw;
 }
-.allout:hover{
+
+.allout:hover {
    background-color: #5b4f47;
    cursor: pointer;
    transform: scale(1.03);
    transition: all 1s ease;
 }
-.allout:hover .linkout{
+
+.allout:hover .linkout {
    font-size: 6vw;
    color: white;
    cursor: pointer;
@@ -735,25 +800,29 @@ body .linksout:hover {
    transition: all 1s ease;
 
 }
-.allout:hover .fab{
+
+.allout:hover .fab {
    color: white;
    cursor: pointer;
    transform: scale(1.03);
    transition: all 1s ease;
-   
+
 
 }
-.linkout{
+
+.linkout {
    color: #5b4f47;
    font-size: 5vw;
    font-family: Pompiere;
    text-decoration: none;
    font-weight: bold;
 }
-.fab{
+
+.fab {
    color: #5b4f47;
 }
-.right-side{
+
+.right-side {
    color: #5b4f47;
    display: flex;
    align-items: center;
@@ -768,7 +837,7 @@ body .linksout:hover {
    font-weight: 400;
 }
 
-.address:hover{
+.address:hover {
    color: #5b4f47;
    font-size: 5vw;
    cursor: pointer;
@@ -776,7 +845,8 @@ body .linksout:hover {
    transition: all 1s ease;
    font-weight: 600;
 }
-.phone:hover{
+
+.phone:hover {
    color: #5b4f47;
    font-size: 5vw;
    cursor: pointer;
@@ -784,7 +854,8 @@ body .linksout:hover {
    transition: all 1s ease;
    font-weight: 600;
 }
-.email:hover{
+
+.email:hover {
    color: #5b4f47;
    font-size: 5vw;
    cursor: pointer;

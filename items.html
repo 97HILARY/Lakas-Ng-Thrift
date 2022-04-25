@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,285 +8,351 @@
   <title>Lakas-Ng-Thrift</title>
   <script src="cart.js"></script>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <style type="text/css"></style>
 <link rel="stylesheet" href="data-bs-target">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pompiere">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
-<script type="text/javascript"> document.write</script>
+<script type="text/javascript">
+  document.write
+</script>
 
 
 <body class="itembody">
   <nav class="fixed-top fixed-top">
     <div class="all">
-  <img class="links logopic" src="logo.png" alt="Lakas ng Thrift">    
-  <a class="links logo" href="#">Lakas ng Thrift</a>
-  <h1>
-    <div style="float: right; cursor: pointer">
-      <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
-        <span class="badge badge-notify my-cart-badge"></span>
-        </span>
+      <img class="links logopic" src="logo.png" alt="Lakas ng Thrift Logo">
+      <a class="links logo" href="#">Lakas ng Thrift</a>
+      <h1>
+        <div style="float: right; cursor: pointer">
+          <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+            <span class="badge badge-notify my-cart-badge"></span>
+          </span>
+        </div>
+      </h1>
+      <div class="right">
+        <a class="links" href="index.html">Home</a>
+        <a class="links" href="about.html">About Us</a>
+        <a class="selected links" href="items.html">Items</a>
+        <a class="links" href="checkout.html">Checkout</a>
+        <a class="links" href="contact.html">Contact Us</a>
+        <audio controls autoplay loop>
+          <source src="Items.mp3" type="audio/ogg">
+        </audio>
       </div>
-  </h1>
-  <div class="right">
-  <a class="links" href="index.html">Home</a>
-  <a class="links" href="about.html">About Us</a>
-  <a class="selected links" href="items.html">Items</a>
-  <a class="links" href="checkout.html">Checkout</a>
-  <a class="links" href="contact.html">Contact Us</a>
-  <audio controls autoplay loop> 
-    <source src="Magbalik.m4a" type="audio/ogg"> 
-  </audio>
-  </div>
-  </div>
+    </div>
   </nav>
   <style>
     .itembody {
-       font-family: sans-serif;
-       background-color:  #ddc1a7;
-       background-image: linear-gradient(315deg, #7f5a83 0% #0d324d 74%);
-       height: 100vh;
-     }
-    
-     .badge-notify {
-       background: red;
-       position: relative;
-       top: -20px;
-       right: 40px;
-       font-family: sans-serif;
-     }
-     
-     .my-cart-btn {
-       position: relative;
-     }
-    
-     h1 {
-       display: flex;
-       color: green;
-       top: 10px;
-       margin-left: 290px;
-       position: fixed;
-     }
-    </style>
-<div id="notebook">
-   <div class="top-header sticky-top" style="display:flexbox; position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Diaries & Planners</p></div>   
+      font-family: sans-serif;
+      background-color: #ddc1a7;
+      background-image: linear-gradient(315deg, #7f5a83 0% #0d324d 74%);
+      height: 100vh;
+    }
 
+    .badge-notify {
+      background: red;
+      position: relative;
+      top: -20px;
+      right: 40px;
+      font-family: sans-serif;
+    }
 
-  <section class="container">
-    <div class="card cardone" style="margin-top: 12%;">
-      <div class="card-image picone"></div>
-      <div class="cardright">
-      <h2>Page One: Belle de Jour Power Planner</h2>
-      <p> The 2022 edition is the support you did not know you need that will allow you to declare your purpose in life.</p>
-      <br><br>
-      <data-id="1" data-name="Page One: Belle de Jour Power Planner" data-summary="summary 1" data-price="20" data-quantity="1" data-image="picone.jpg"></data-id>
-      <button class="btn btn-dark vw-50 vh-25 my-cart-btn" style="margin-top: -23px;" data-id="1" data-name="Page One: 2022 Belle de Jour Power Planner" data-summary="summary 1" data-price="20" data-quantity="1" data-image="picone.jpg">
-        Customizable Page for only P20!
-      </button>
-      </div>
+    .my-cart-btn {
+      position: relative;
+    }
+
+    h1 {
+      display: flex;
+      color: green;
+      top: 10px;
+      margin-left: 290px;
+      position: fixed;
+    }
+  </style>
+  <div id="notebook">
+    <div class="top-header sticky-top" style="display:flexbox; position: sticky; top: 100px;background-color: #5b4f47;">
+      <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Diaries &
+        Planners</p>
     </div>
 
-    <div class="card">
-      <div class="card-image pictwo"></div>
-      <div class="cardright">
-      <h2>Page Two: Belle de Jour Power Planner</h2>
-      <p>Monthly Page, Journal Prompts and QR Codes to access free Monthly Coaching!</p>
-      <br><br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="2" data-name="Page Two: Belle de Jour Power Planner" data-summary="summary 2" data-price="20" data-quantity="1" data-image="pictwo.jpg">
-        Customizable Page for only P20!
-      </button>
-      </div>
-    </div>
 
-    <div class="card">
-      <div class="card-image picthree"></div>
-      <div class="cardright">
-      <h2>Page Three: Belle de Jour Power Planner</h2>
-      <p>Monthly Dividers with Affirmations and Workbook!</p><br>
-      <br><br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -23px;" data-id="3" data-name="Page Three: Belle de Jour Power Planner" data-summary="summary 3" data-price="20" data-quantity="1" data-image="picthree.jpg">
-        Customizable Page for only P20!
-        </button>
-      </div>
-    </div>
-      
-    <div class="card">
-        <div class="card-image picfour"></div>
+    <section class="container">
+      <div class="card cardone" style="margin-top: 12%;">
+        <div class="card-image picone"></div>
         <div class="cardright">
-        <h2>Special: Belle de Jour Power Planner</h2>
-        <p>Special pages to help you live the life you love.</p>
-        <br><br><br>
-        <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="4" data-name="Special: Belle de Jour Power Planner" data-summary="summary 4" data-price="20" data-quantity="1" data-image="picfour.jpg">
-          Customizable Page for only P20!
+          <h2>Page One: Belle de Jour Power Planner</h2>
+          <p> The 2022 edition is the support you did not know you need that will allow you to declare your purpose in
+            life.</p>
+          <br><br>
+          <data-id="1" data-name="Page One: Belle de Jour Power Planner" data-summary="summary 1" data-price="20"
+            data-quantity="1" data-image="picone.jpg">
+            </data-id>
+            <button class="btn btn-dark vw-50 vh-25 my-cart-btn" style="margin-top: -23px;" data-id="1"
+              data-name="Page One: 2022 Belle de Jour Power Planner" data-summary="summary 1" data-price="20"
+              data-quantity="1" data-image="picone.jpg">
+              Customizable Page for only P20!
+            </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image pictwo"></div>
+        <div class="cardright">
+          <h2>Page Two: Belle de Jour Power Planner</h2>
+          <p>Monthly Page, Journal Prompts and QR Codes to access free Monthly Coaching!</p>
+          <br><br>
+          <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="2"
+            data-name="Page Two: Belle de Jour Power Planner" data-summary="summary 2" data-price="20" data-quantity="1"
+            data-image="pictwo.jpg">
+            Customizable Page for only P20!
           </button>
         </div>
-    </div>
-      
+      </div>
+
+      <div class="card">
+        <div class="card-image picthree"></div>
+        <div class="cardright">
+          <h2>Page Three: Belle de Jour Power Planner</h2>
+          <p>Monthly Dividers with Affirmations and Workbook!</p><br>
+          <br><br>
+          <button class="btn btn-dark my-cart-btn" style="margin-top: -23px;" data-id="3"
+            data-name="Page Three: Belle de Jour Power Planner" data-summary="summary 3" data-price="20"
+            data-quantity="1" data-image="picthree.jpg">
+            Customizable Page for only P20!
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image picfour"></div>
+        <div class="cardright">
+          <h2>Special: Belle de Jour Power Planner</h2>
+          <p>Special pages to help you live the life you love.</p>
+          <br><br><br>
+          <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="4"
+            data-name="Special: Belle de Jour Power Planner" data-summary="summary 4" data-price="20" data-quantity="1"
+            data-image="picfour.jpg">
+            Customizable Page for only P20!
+          </button>
+        </div>
+      </div>
+
       <div class="card">
         <div class="card-image picfive"></div>
         <div class="cardright">
-        <h2>Cover: Belle de Jour Power Planner</h2>
-        <p>Classic Cover with Bella printed with Matte Laminations and Holographic Stomping</p>
-        <br><br>
-        <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="5" data-name="Cover: Belle de Jour Power Planner" data-summary="summary 5" data-price="20" data-quantity="1" data-image="picfive.jpg">
-          Customizable Cover for only P20!
+          <h2>Cover: Belle de Jour Power Planner</h2>
+          <p>Classic Cover with Bella printed with Matte Laminations and Holographic Stomping</p>
+          <br><br>
+          <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="5"
+            data-name="Cover: Belle de Jour Power Planner" data-summary="summary 5" data-price="20" data-quantity="1"
+            data-image="picfive.jpg">
+            Customizable Cover for only P20!
           </button>
+        </div>
       </div>
+    </section>
+
+
+
+    <div class="sticky-top" style="position: sticky; top: 100px;background-color: #5b4f47;">
+      <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Storage
+        Boxes & Containers</p>
+    </div>
+    <div id="notebook">
+
+      <section class="container">
+        <div class="card">
+          <div class="card-image picsix"></div>
+          <div class="cardright">
+            <h2>Authentic Sanrio Square Case</h2>
+            <p>Get cute and easy storage with the Little Twin Star Sheer Square Case. It's convenient for storing small
+              items and accessories!</p>
+            <br>
+            <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="6"
+              data-name="Authentic Sanrio Square Case" data-summary="summary 6" data-price="15" data-quantity="1"
+              data-image="picsix.jpg">
+              Buy now for only P15!
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image pokemon"></div>
+          <div class="cardright">
+            <h2>Pokemon Pikachu Ceramic Bank</h2>
+            <p>This iconic Pokemon character comes as a molded ceramic bank with a glossy finish and features a plastic
+              coin stopper.</p>
+            <br>
+            <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="7"
+              data-name="Pokemon Pikachu Ceramic Bank" data-summary="summary 7" data-price="50" data-quantity="1"
+              data-image="pokemon.jpg">
+              Buy now for only P50!
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="sticky-top" style="position: sticky; top: 100px;background-color: #5b4f47;">
+        <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Fashion
+          Products</p>
       </div>
-  </section>
+      <div id="notebook">
+
+        <section class="container">
+          <div class="card">
+            <div class="card-image picnine"></div>
+            <div class="cardright">
+              <h2>Cute Printing Tote Bag Bulldog</h2>
+              <p>This Cute Bulldog Face Printed Cotton Tote Bag makes the Perfect Gift for any Dog Lover! To make you
+                stand out whenever worn, and as it’s re-useable, you can feel good while looking good!</p>
+              <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="8"
+                data-name="Cute Printing Tote Bag Bulldog" data-summary="summary 8" data-price="75" data-quantity="1"
+                data-image="picseven.jpg">
+                Customizable Page for only P75!
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image pictwelve"></div>
+            <div class="cardright">
+              <h2>Korean Red Tee</h2>
+              <p>Buy a Korean red shirt at a great price. Perfect for casual, travel, home, date, party, club.</p>
+              <br><br>
+              <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="9" data-name="Korean Red Tee"
+                data-summary="summary 9" data-price="10" data-quantity="60" data-image="pictwelve.jpg">
+                Buy now for only P60!
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image picfourteen"></div>
+            <div class="cardright">
+              <h2>Preloved Sun Specs</h2>
+              <p>Introducing our truly sustainable Preloved Collection, a curated specs of second-hand glasses
+                handpicked by us for their quality and design.</p>
+              <br>
+              <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="10"
+                data-name="Preloved Sun Specs" data-summary="summary 10" data-price="60" data-quantity="1"
+                data-image="picfourteen.jpg">
+                Buy now for only P60!
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image picsixteen"></div>
+            <div class="cardright">
+              <h2>Simple Pearl Necklace</h2>
+              <p>Simply made with a delicate gold trace chain, it's a timeless addition to your jewelry that will never
+                go out of style. Check out our simple pearl necklace that suits any occasion, be it formal or casual.
+              </p>
+              <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="11"
+                data-name="Simple Pearl Necklace" data-summary="summary 11" data-price="40" data-quantity="1"
+                data-image="picsixteen.jpg">
+                Buy now for only P40!
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image picseventeen"></div>
+            <div class="cardright">
+              <h2>Studio Fashion Elmo Korean Inspired Bucket Hat for Unisex</h2>
+              <p>Solid and printed color, wide brim, and dome design, this hat is very simple and fashionable, making
+                you more elegant and temperament.</p>
+              <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="12"
+                data-name="Studio Fashion Elmo Korean Inspired Bucket Hat for Unisex" data-summary="summary 12"
+                data-price="100" data-quantity="1" data-image="picseventeen.jpg">
+                Buy now for only P100!
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <div class="sticky-top" style="position: sticky; top: 100px;background-color: #5b4f47;">
+          <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">
+            Kitchenware & Tableware</p>
+        </div>
+        <div id="notebook">
+
+          <section class="container">
+            <div class="card">
+              <div class="card-image picfifteen"></div>
+              <div class="cardright">
+                <h2>Round Wooden Plates</h2>
+                <p>Round wood plate in natural colour. It has a flat base and raised edge. This is great as a serving
+                  plate or as a decorative container for your accessories. With good food and beautiful tableware, even
+                  a simple everyday dinner may become a little celebration.</p>
+                <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="13"
+                  data-name="Round Wooden Plates" data-summary="summary 13" data-price="75" data-quantity="1"
+                  data-image="picfifteen.jpg">
+                  Buy now for only P75!
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <div class="sticky-top" style="position: sticky; top: 100px;background-color: #5b4f47;">
+            <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Glass
+              Flower Vase</p>
+          </div>
+          <div id="notebook">
+
+            <section class="container">
+              <div class="card">
+                <div class="card-image picten"></div>
+                <div class="cardright">
+                  <h2>Glass Flower Vase</h2>
+                  <p>Try out this beautiful tall glass flower vase that brings a nice mood every day! No sharp corners,
+                    bubbles, or wrinkles on the glass, the vase looks pure and transparent, safe and beautiful. Easy to
+                    wash, shock resistant, and nonbreakable.</p>
+                  <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="14"
+                    data-name="Glass Flower Vase" data-summary="summary 14" data-price="50" data-quantity="1"
+                    data-image="picten.jpg">
+                    Buy now for only P50!
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <div class="sticky-top" style="position: sticky; top: 100px;background-color: #5b4f47;">
+              <p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">
+                Accessories</p>
+            </div>
+            <div id="notebook">
+
+              <section class="container">
+                <div class="card">
+                  <div class="card-image picseven"></div>
+                  <div class="cardright">
+                    <h2>Cute Keyring</h2>
+                    <p>A way to personalize a purse so many others might have or to give new life to a tried and true
+                      style. Customizable with words of love, inspiration, and strength designed to uplift your spirits
+                      wherever you go.</p>
+                    <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="15"
+                      data-name="Cute Keyring" data-summary="summary 15" data-price="50" data-quantity="1"
+                      data-image="picseven.jpg">
+                      Buy now for only P50!
+                    </button>
+                  </div>
+                </div>
+                <script src="jquery.mycart.js"></script>
+              </section>
+
+              <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+              <script src="..//jquery.mycart.js"></script>
+              <script src="..//cart.js"></script>
 
 
-
-  <div class="sticky-top"style="position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Storage Boxes & Containers</p></div>
-	<div id="notebook">
-
-  <section class="container">
-    <div class="card">
-      <div class="card-image picsix"></div>
-      <div class="cardright">
-      <h2>Authentic Sanrio Square Case</h2>
-      <p>Get cute and easy storage with the Little Twin Star Sheer Square Case. It's convenient for storing small items and accessories!</p>
-      <br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="6" data-name="Authentic Sanrio Square Case" data-summary="summary 6" data-price="15" data-quantity="1" data-image="picsix.jpg">
-        Buy now for only P15!
-      </button>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image pokemon"></div>
-      <div class="cardright">
-      <h2>Pokemon Pikachu Ceramic Bank</h2>
-      <p>This iconic Pokemon character comes as a molded ceramic bank with a glossy finish and features a plastic coin stopper.</p>
-      <br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="7" data-name="Pokemon Pikachu Ceramic Bank" data-summary="summary 7" data-price="50" data-quantity="1" data-image="pokemon.jpg">
-        Buy now for only P50!
-      </button>
-      </div>
-    </div>
-  </section>
-
-  <div class="sticky-top"style="position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Fashion Products</p></div>
-	<div id="notebook">
-
-  <section class="container">
-    <div class="card">
-      <div class="card-image picnine"></div>
-      <div class="cardright">
-      <h2>Cute Printing Tote Bag Bulldog</h2>
-      <p>This Cute Bulldog Face Printed Cotton Tote Bag makes the Perfect Gift for any Dog Lover! To make you stand out whenever worn, and as it’s re-useable, you can feel good while looking good!</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="8" data-name="Cute Printing Tote Bag Bulldog" data-summary="summary 8" data-price="75" data-quantity="1" data-image="picseven.jpg">
-        Customizable Page for only P75!
-      </button>
-      </div> 
-    </div>
-
-    <div class="card">
-      <div class="card-image pictwelve"></div>
-      <div class="cardright">
-      <h2>Korean Red Tee</h2>
-      <p>Buy a Korean red shirt at a great price. Perfect for casual, travel, home, date, party, club.</p>
-      <br><br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="9" data-name="Korean Red Tee" data-summary="summary 9" data-price="10" data-quantity="60" data-image="pictwelve.jpg">
-        Buy now for only P60!
-      </button>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="card-image picfourteen"></div>
-      <div class="cardright">
-      <h2>Preloved Sun Specs</h2>
-      <p>Introducing our truly sustainable Preloved Collection, a curated specs of second-hand glasses handpicked by us for their quality and design.</p>
-      <br>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="10" data-name="Preloved Sun Specs" data-summary="summary 10" data-price="60" data-quantity="1" data-image="picfourteen.jpg">
-        Buy now for only P60!
-      </button>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="card-image picsixteen"></div>
-      <div class="cardright">
-      <h2>Simple Pearl Necklace</h2>
-      <p>Simply made with a delicate gold trace chain, it's a timeless addition to your jewelry that will never go out of style. Check out our simple pearl necklace that suits any occasion, be it formal or casual.</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="11" data-name="Simple Pearl Necklace" data-summary="summary 11" data-price="40" data-quantity="1" data-image="picsixteen.jpg">
-        Buy now for only P40!
-      </button>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="card-image picseventeen"></div>
-      <div class="cardright">
-      <h2>Studio Fashion Elmo Korean Inspired Bucket Hat for Unisex</h2>
-      <p>Solid and printed color, wide brim, and dome design, this hat is very simple and fashionable, making you more elegant and temperament.</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -3px;" data-id="12" data-name="Studio Fashion Elmo Korean Inspired Bucket Hat for Unisex" data-summary="summary 12" data-price="100" data-quantity="1" data-image="picseventeen.jpg">
-        Buy now for only P100!
-      </button>
-      </div>
-    </div>
-  </section>
-
-  <div class="sticky-top"style="position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Kitchenware & Tableware</p></div>
-	<div id="notebook">
-
-  <section class="container">
-    <div class="card">
-    <div class="card-image picfifteen"></div>
-    <div class="cardright">
-    <h2>Round Wooden Plates</h2>
-    <p>Round wood plate in natural colour. It has a flat base and raised edge. This is great as a serving plate or as a decorative container for your accessories. With good food and beautiful tableware, even a simple everyday dinner may become a little celebration.</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="13" data-name="Round Wooden Plates" data-summary="summary 13" data-price="75" data-quantity="1" data-image="picfifteen.jpg">
-        Buy now for only P75!
-      </button>
-    </div>
-    </div>
-  </section>  
-
-  <div class="sticky-top"style="position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Glass Flower Vase</p></div>
-  <div id="notebook">
-    
-  <section class="container">
-    <div class="card">
-    <div class="card-image picten"></div>
-    <div class="cardright">
-    <h2>Glass Flower Vase</h2>
-    <p>Try out this beautiful tall glass flower vase that brings a nice mood every day! No sharp corners, bubbles, or wrinkles on the glass, the vase looks pure and transparent, safe and beautiful. Easy to wash, shock resistant, and nonbreakable.</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="14" data-name="Glass Flower Vase" data-summary="summary 14" data-price="50" data-quantity="1" data-image="picten.jpg">
-        Buy now for only P50!
-      </button>
-    </div>
-    </div>
-  </section>  
-
-<div class="sticky-top"style="position: sticky; top: 100px;background-color: #5b4f47;"><p style="font-family: Dancing Script, sans-serif; color: white; text-align: center; font-size: 6vw;">Accessories</p></div>
-<div id="notebook">
-      
-  <section class="container">
-    <div class="card">
-    <div class="card-image picseven"></div>
-    <div class="cardright">
-    <h2>Cute Keyring</h2>
-    <p>A way to personalize a purse so many others might have or to give new life to a tried and true style. Customizable with words of love, inspiration, and strength designed to uplift your spirits wherever you go.</p>
-      <button class="btn btn-dark my-cart-btn" style="margin-top: -19px;" data-id="15" data-name="Cute Keyring" data-summary="summary 15" data-price="50" data-quantity="1" data-image="picseven.jpg">
-        Buy now for only P50!
-      </button>
-    </div>
-    </div>
-    <script src="jquery.mycart.js"></script>
-  </section>  
-
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
-<script src="..//jquery.mycart.js"></script>
-<script src="..//cart.js"></script>
-
-
-<footer class="my-4 pt-4 text-muted text-center text-smaller">
-  <p style="color: #5b4f47; font-family: Pompiere;" class="mw-w">© 2022 Lakas-Ng-Thrift</p>
+              <footer class="my-4 pt-4 text-muted text-center text-smaller">
+                <p style="color: #5b4f47; font-family: Pompiere;" class="mw-w">© 2022 Lakas-Ng-Thrift</p>
 
 
 </body>
